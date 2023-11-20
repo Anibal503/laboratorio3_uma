@@ -1,2 +1,0 @@
-car = "parry"
-print (car)
