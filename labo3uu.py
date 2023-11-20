@@ -1,0 +1,2 @@
+car = "parry"
+print (car)
