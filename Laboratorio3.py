@@ -28,5 +28,17 @@ auto1 = Auto(marca="Toyota", modelo="Corolla", asientos=5, color="Azul",
 auto2 = Auto(marca="Nissan", modelo="Altima", asientos=5, color="Blanco",
              tipo="Sedan", combustible="Gasolina", precio=32000, garantia=5, fecha_ingreso="18-julio-2022")
 
+auto3 = Auto(marca="Kia", modelo="Seltos", asientos=5, color="Gris",
+             tipo="SUV", combustible="Gasolina", precio=28000, garantia=7, fecha_ingreso="20-julio-2022")
+
+auto4 = Auto(marca="Mitsubishi", modelo="Outlander", asientos=7, color="Negro",
+             tipo="SUV", combustible="Híbrido", precio=35000, garantia=6, fecha_ingreso="22-julio-2022")
+
+auto5 = Auto(marca="Hyundai", modelo="Elantra", asientos=5, color="Plateado",
+             tipo="Sedan", combustible="Gasolina", precio=27000, garantia=9, fecha_ingreso="25-julio-2022")
+
 auto1.mostrar_informacion()
 auto2.mostrar_informacion()
+auto3.mostrar_informacion()
+auto4.mostrar_informacion()
+auto5.mostrar_informacion()
