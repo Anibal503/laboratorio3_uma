@@ -1,2 +1,1 @@
-carro = "nissan"
-print(carro)
+
