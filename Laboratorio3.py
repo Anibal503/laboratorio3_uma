@@ -22,3 +22,11 @@ class Auto:
 
 
 
+auto1 = Auto(marca="Toyota", modelo="Corolla", asientos=5, color="Azul",
+             tipo="Sedan", combustible="Gasolina", precio=26000, garantia=8, fecha_ingreso="15-julio-2022")
+
+auto2 = Auto(marca="Nissan", modelo="Altima", asientos=5, color="Blanco",
+             tipo="Sedan", combustible="Gasolina", precio=32000, garantia=5, fecha_ingreso="18-julio-2022")
+
+auto1.mostrar_informacion()
+auto2.mostrar_informacion()
