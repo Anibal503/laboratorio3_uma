@@ -10,3 +10,15 @@ class Auto:
         auto.garantia = garantia
         auto.fecha_ingreso = fecha_ingreso
 
+    def mostrar_informacion(auto):
+        print(f"Marca: {auto.marca}")
+        print(f"Modelo: {auto.modelo}")
+        print(f"Asientos: {auto.asientos}")
+        print(f"Color: {auto.color}")
+        print(f"Tipo: {auto.tipo}")
+        print(f"Precio: ${auto.precio}")
+        print(f"Garantia: {auto.garantia} años")
+        print(f"Fecha: {auto.fecha_ingreso}\n")
+
+
+
